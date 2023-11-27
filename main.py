@@ -25,20 +25,20 @@ def hello():
 def help():
     return """Please enter the command in accordance with the described capabilities (left column), for the specified type (right column).\n
     Here are some things you can do:\n
-        'add name_contact phone [birthday]'         - Add a new contact with an optional birthday.
-        'add name_contact another_phone'            - Add an additional phone number to an existing contact.
-        'birthday name_contact new_birthday_date'   - Add or update the birthday of an existing contact.
-        'change name_contact old_phone new_phone'   - Change an existing phone number of a contact.
-        'search'                                    - Search for contacts by name or phone number that match the entered string.
-        'when name_contact'                         - Show the number of days until the birthday for a contact.
-        'phone name_contact'                        - Show all phone numbers for a contact.
-        'show all'                                  - Display all contacts.
-        'remove name_contact phone_number'          - Remove a phone number from an existing contact.
-        'delete name_contact'                       - Delete an entire contact.
-        'save'                                      - Save the address book to a file.
-        'load'                                      - Load the address book from a file.
-        'exit' or 'close' or 'good bye'             - Exit the program.
-        'clear all'                                 - Clear all contacts."""
+        'add <name_contact> <phone> <birthday>'           - Add a new contact with an optional birthday.
+        'add <name_contact> <another_phone>'              - Add an additional phone number to an existing contact.
+        'birthday <name_contact> <new_birthday_date>'     - Add or update the birthday of an existing contact.
+        'change <name_contact> <old_phone> <new_phone>'   - Change an existing phone number of a contact.
+        'search'                                          - Search for contacts by name or phone number that match the entered string.
+        'when <name_contact>'                             - Show the number of days until the birthday for a contact.
+        'phone <name_contact>'                            - Show all phone numbers for a contact.
+        'show all'                                        - Display all contacts.
+        'remove <name_contact> <phone_number>'            - Remove a phone number from an existing contact.
+        'delete <name_contact>'                           - Delete an entire contact.
+        'save'                                            - Save the address book to a file.
+        'load'                                            - Load the address book from a file.
+        'exit' or 'close' or 'good bye'                   - Exit the program.
+        'clear all'                                       - Clear all contacts."""
 
 # Function to add a new contact
 @input_error
